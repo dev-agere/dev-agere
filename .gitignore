@@ -28,3 +28,10 @@ build/
 *.pem
 *.key
 credentials.json
+
+# Agent personal memory (session-specific, not shared)
+agents/*/memory/
+agents/*/.claude/
+
+# Netlify
+.netlify/
